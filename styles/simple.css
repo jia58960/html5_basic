@@ -1,0 +1,106 @@
+* {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+header {
+	height: 80px;
+	background: #000;
+}
+header > .container {
+	width: 900px;
+	margin: 0 auto;
+}
+header > .container > a {
+	display: block;
+	float: left;
+	margin: 5px 25px;
+}
+header > .container > nav {
+	float: right;
+}
+header > .container > nav > a {
+	display: block;
+	text-align: center;
+	width: 100px;
+	height: 73px;
+	font-size: 24px;
+	float: left;
+	line-height: 73px;
+	color: #fff;
+}
+
+header > .container > nav > a.Home {
+	background: #433b90
+}header > .container > nav > a.Index {
+	background: #Feb800
+}
+header > .container > nav > a.Course {
+	background: #017fcb
+}
+header > .container > nav > a.Actual {
+	background: #78b917
+}
+
+
+header > .container > nav > a:hover,
+header > .container > nav > a.active {
+	padding-bottom: 7px;
+}
+.banner {
+	background: #eaeaea;
+}
+.banner > ul {
+	position: relative;
+	width: 1190px;
+	height: 538px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.banner > ul > li {
+	position: absolute;
+	width: 510px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.banner > ul > li.active {
+	z-index: 2;
+	top: 37px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 660px;
+	height: 460px;
+	border: 1px solid #fff;
+}
+
+.banner > ul > li.left {
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.banner > ul > li.right {
+	z-index: 1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.banner > ul > li > img {
+	position: absolute;
+	left: -30%;
+	height: 100%;
+}

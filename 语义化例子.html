@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>语义化标签的应用</title>
+</head>
+
+<body>
+    <header>
+        <div>Logo</div>
+        <nav>
+            <a href="###">首页</a>
+            <a href="###">导航一</a>
+            <a href="###">导航二</a>
+        </nav>
+    </header>
+    <section>
+        <hgroup>
+            <h1>主标题</h1>
+            <h3>副标题</h3>
+            <h4>巴拉巴拉内容总结</h4>
+        </hgroup>
+        <aside>
+            <a href="">Section One</a>
+            <a href="">Section Two</a>
+            <a href="">Section Three</a>
+        </aside>
+        <article>
+            <p>巴拉巴拉巴拉详细内容啊哈哈哈哈哈。。。</p>
+        </article>
+    </section>
+    <section>
+        <figure>
+            <figcaption>
+                这里是视频title
+            </figcaption>
+            <div>这里是视频主体部分</div>
+        </figure>
+    </section>
+    <section>
+        <dialog>
+            <dt>张三：恩，内容不错</dt>
+            <dd>李四：还好吧，主题不突出！</dd>
+            <dt>张三：恩，内容不错</dt>
+            <dd>李四：还好吧，主题不突出！</dd>
+            <dt>张三：恩，内容不错</dt>
+            <dd>李四：还好吧，主题不突出！</dd>
+        </dialog>
+        <dialog>
+            <dt>张三：恩，内容不错</dt>
+            <dd>李四：还好吧，主题不突出！</dd>
+            <dt>张三：恩，内容不错</dt>
+            <dd>李四：还好吧，主题不突出！</dd>
+            <dt>张三：恩，内容不错</dt>
+            <dd>李四：还好吧，主题不突出！</dd>
+        </dialog>
+    </section>
+    <section>
+        <!-- -1表示无限次循环播放 -->
+        <!-- <audio src="不是因为寂寞才想你.mp3" autoplay="autoplay" loop="-1" controls="controls">您的浏览器不支持audio标签哦！</audio> -->
+        <audio controls="controls">
+            <source src="不是因为寂寞才想你.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+    <section>
+        <!-- <video src="1What is jQuery.mp4" controls="controls"></video> -->
+        <video controls="controls" width="500" height="300">
+            <source src="1What is jQuery.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section>
+        <!--一般用来包含flash svg等，当然它也支持包含音视频-->
+        <embed src="xxx.swf" width="400" height="200"></embed>
+    </section>
+    <section>
+        <meter value="280" min="20" max="380" low="200" high="240" optimum="220"></meter>
+        <meter value="0.25">25%</meter>
+        <!-- <progress value="30" max="100"> -->
+        <progress max="30">
+    </section>
+    <section>
+        <input type="text" name="" placeholder="这是datalist的用途" list="phoneList">
+        <datalist id="phoneList">
+            <option value="apple">苹果</option>
+            <option value="xiaomim">小米</option>
+            <option value="huawei">华为</option>
+            <option value="meizu">魅族</option>
+            <option value="kupai">酷派</option>
+        </datalist>
+    </section>
+    <section>
+    	<!--open="open"表示默认打开，刷新之后也会打开-->
+        <details open="open">
+            <summary>这就是details标签的用途</summary>
+            <p>详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容详情内容</p>
+        </details>
+    </section>
+    <section>
+    	<!--rt一定要放在rp里面-->
+    	<p>我们来<ruby>夼<rp>(</rp><rt>kuang</rt><rp>)</rp></ruby>话</p>
+    </section>
+    <footer>
+        Copyright....
+    </footer>
+</body>
+
+</html>
